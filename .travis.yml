@@ -1,5 +1,5 @@
 language: node_js
-node_js: 
+node_js:
   - "8"
 
 env:
@@ -36,7 +36,7 @@ cache:
   directories:
     - node_modules
 
-before_install: 
+before_install:
 
 before_script:
   - npm install -g gemini@5.2.0 html-reporter@2.0.1
